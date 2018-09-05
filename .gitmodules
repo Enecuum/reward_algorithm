@@ -1,0 +1,8 @@
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/StefanHamminga/cpp_lib_scripts
+	branch = master
+[submodule "cnl"]
+	path = cnl
+	url = https://github.com/johnmcfarlane/cnl.git
+	branch = master
