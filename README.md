@@ -38,3 +38,18 @@ make check
 ./test_NAME
 ```
 
+## Installing
+
+The same build system (above) can be used to install the project (headers) to the system include directory (system dependent, but most likely `/usr/local/include/` by default).
+
+
+```sh
+sudo make install
+```
+
+For example, the `neural_networks_tools` will be installed to `/usr/local/include/neural_network_tools/{header.hpp}` and can be used in other C++ projects like this:
+
+```C++
+#include <neural_network_tools/{header.hpp}>
+```
+
