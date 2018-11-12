@@ -6,3 +6,6 @@
 	path = cnl
 	url = https://github.com/johnmcfarlane/cnl.git
 	branch = master
+[submodule "extra_math"]
+	path = extra_math
+	url = https://github.com/StefanHamminga/extra_math.git

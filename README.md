@@ -9,6 +9,12 @@ To include all submodules, please clone like this:
 git clone --recurse-submodules -j8 git@github.com:Enecuum/reward_algorithm.git
 ```
 
+To get all submodules for existing clone, use:
+
+```sh
+git submodule update --init --recursive
+```
+
 ## Building
 
 The included build system uses several Linux tools to automate things (`find`, `sed`, etc), in Windows this might work, might not.
