@@ -1,1 +1,1 @@
-scripts/CMakeLists.txt
+../scripts/CMakeLists.txt
