@@ -9,7 +9,7 @@
 #endif
 #ifndef unlikely
 /// Wrap conditionals in unlikely to inform the compiler which branch path to optimise.
-#define unlikely(x) __builtin_expect(!!(x), false)                                                                                                                                                    
+#define unlikely(x) __builtin_expect(!!(x), false)
 #endif
 
 namespace neural_network_tools {

@@ -3,10 +3,12 @@
 #ifndef NEURAL_NETWORK_TOOLS_CONFIG_h
 #define NEURAL_NETWORK_TOOLS_CONFIG_h
 
-#include <extra_math/extra_math.hpp>
-#include <cnl/all.h>
-#include <cnl/cmath.h>
+// #include <extra_math/extra_math.hpp>
+// #include <cnl/all.h>
+// #include <cnl/cmath.h>
 // #include <cnl/fixed_point.h>
+
+#include "../extra_math/extra_math.hpp"
 
 #include <array>
 #include <cstdint>
